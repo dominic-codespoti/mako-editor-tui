@@ -7,7 +7,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/dominic-codespoti/mako-editor-tui"
 homepage = "https://github.com/dominic-codespoti/mako-editor-tui"
 keywords = ["mako", "tui", "notifications", "editor"]
-categories = ["command-line-utilities", "terminal-user-interface"]
+categories = ["command-line-utilities"]
 authors = ["Dominic Codespoti <dom@localhost>"]
 
 [dependencies]
