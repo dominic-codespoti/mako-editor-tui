@@ -49,10 +49,25 @@ Prerequisites
 
 - Rust toolchain (stable) installed via `rustup`
 
+
 Build and run
 
+There are two common ways to use the published package from crates.io:
+
+1. Install and run the provided binary (recommended for end users):
+
 ```bash
-# run in project root
+# install the published binary
+cargo install mako-tui
+
+# then run
+mako-tui
+```
+
+2. Use the repository locally or depend on it in a workspace and run the binary directly:
+
+```bash
+# from the repo root
 cargo run --release
 ```
 
