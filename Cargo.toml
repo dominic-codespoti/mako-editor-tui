@@ -3,6 +3,12 @@ name = "mako-tui"
 version = "1.0.0"
 edition = "2024"
 description = "A small terminal user interface for editing mako notification daemon configuration files."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/dominic-codespoti/mako-editor-tui"
+homepage = "https://github.com/dominic-codespoti/mako-editor-tui"
+keywords = ["mako", "tui", "notifications", "editor"]
+categories = ["command-line-utilities", "terminal-user-interface"]
+authors = ["Dominic Codespoti <dom@localhost>"]
 
 [dependencies]
 crossterm = "0.28"
