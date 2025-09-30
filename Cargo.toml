@@ -1,0 +1,10 @@
+[package]
+name = "mako-tui"
+version = "1.0.0"
+edition = "2024"
+description = "A small terminal user interface for editing mako notification daemon configuration files."
+
+[dependencies]
+crossterm = "0.28"
+ratatui = "0.27"
+home = "0.5"
